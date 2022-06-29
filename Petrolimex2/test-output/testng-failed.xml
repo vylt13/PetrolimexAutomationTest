@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCaseVBKySo.TC04_FileWord_KySoFileWord">
+      <class name="testCaseTPXuLyVanBanDen.TC04_Tp_LapHoSoXuLy">
         <methods>
-          <include name="VBDangLuuKhongDinhKem"/>
+          <include name="LapHoSoXuLy"/>
         </methods>
-      </class> <!-- testCaseVBKySo.TC04_FileWord_KySoFileWord -->
+      </class> <!-- testCaseTPXuLyVanBanDen.TC04_Tp_LapHoSoXuLy -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
