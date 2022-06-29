@@ -1,0 +1,54 @@
+package pages;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class ThuocTinhVBDuThao {
+	DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+	DateTimeFormatter formatNgayVanBan = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+	public String createdTime = myFormatObj.format(LocalDateTime.now());
+	public String ngay_phe_duyet = formatNgayVanBan.format(LocalDateTime.now());
+	public String ngay_tren_vb = formatNgayVanBan.format(LocalDateTime.now());
+	public String trich_yeu_du_thao_vb = "Trích yếu dự thảo Văn bản lúc: " + System.currentTimeMillis();
+	public String file01 = "C:\\AttachFiles\\FileWord.docx";
+	public String file02 = "C:\\AttachFiles\\FilePdf.pdf";
+	public String file03 = "C:\\AttachFiles\\FileExcel.xlsx";
+	public String loai_van_ban = "Nghị quyết";
+	public String loai_van_ban_cap_nhat = "Biên bản";
+	public String nguoi_tao = "Eoff Chuyên viên 1";
+	public String nguoi_tao_vb_ky_so = "Eoff Chuyên viên 1";
+	public String nguoi_tao_vb_ky_so_co_wn = "Eoff Chuyên viên 2";
+	public String lanh_dao_phong_ban = "Eoff Trưởng phòng";
+	public String lanh_dao_phong_lien_quan = "Eoff TPHC";
+	public String lanh_dao_dong_phe_duyet = "Eoff Phó Giám đốc";
+	public String phong_ban_nguoi_tao = "Đơn vị Upgrade";
+	public String phong_ban_nguoi_tao_vb_ky_so = "Đơn vị Upgrade";
+	public String tinh_trang_lanh_dao_phong = "Thống nhất";
+	public String lanh_dao_bgd_dang_xu_ly = "Eoff Giám đốc";
+	public String tinh_trang_bgd = "Ban TGĐ/HĐQT";
+	public String lanh_dao_duyet_vb = "Eoff Giám đốc";
+	public String lanh_dao_duyet_vb_so_2 = "Eoff Chủ tịch";
+	public String user_chuyen_xu_ly = "Eoff Chuyên viên 2";
+	public String user_chuyen_xu_ly_ky_so = "Eoff Chủ tịch";
+	public String y_kien_nguoi_gui = "Ý kiến người soạn thảo gửi phê duyệt";
+	public String y_kien_phe_duyet_vb_du_thao = "Ý kiến phê duyệt VB Dự thảo";
+	public String file_word_ky_so_1_trang_key_stt = "C:\\AttachFiles\\SiteDonViSql\\VB Ky so - 1 trang - Key STT.docx";
+	public String file_word_ky_so_1_trang_key_account = "C:\\AttachFiles\\SiteDonViSql\\VB Ky so - 1 trang - Key Account.docx";
+	public String file_word_ky_so_nhieu_trang_key_stt = "C:\\AttachFiles\\SiteDonViSql\\VB Ky so - Nhieu trang - Key STT.docx";
+	public String file_word_ky_so_nhieu_trang_key_account = "C:\\AttachFiles\\SiteDonViSql\\VB Ky so - Nhieu trang - Key Account.docx";
+	public String file_word_ky_so_ky_nhay_o_buoc_cuoi_key_stt = "C:\\AttachFiles\\SiteDonViSql\\VB Ky so - Ky Nhay o buoc cuoi cung - Key STT.docx";
+	public String file_word_ky_so_ky_nhay_o_buoc_cuoi_key_account = "C:\\AttachFiles\\SiteDonViSql\\VB Ky so - Ky Nhay o buoc cuoi cung - Key Account.docx";
+	public String file_word_ky_so_ket_hop_key_stt_account = "C:\\AttachFiles\\SiteDonViSql\\VB Ky so - 1 trang - Key ket hop STT Account.docx";
+	public String file_word_ky_so_ky_nhay_ky_chinh_o_buoc_cuoi = "C:\\AttachFiles\\PLXKV1\\KV1_File Ky so_Ky nhay va Ky chinh o Buoc cuoi cung.doc";
+	public String file_excel_ky_so = "C:\\AttachFiles\\SiteDonViSql\\File Excel ký số.xlsx";
+	public String file_pdf_ky_so = "C:\\AttachFiles\\SiteDonViSql\\File PDF ký số.pdf";
+	public String file_word_ky_so_loi = "C:\\AttachFiles\\SiteDonViSql\\VB Ky so - 1 trang - Key Loi.docx";
+	public String file_word_ky_so_1_chu_ky = "C:\\AttachFiles\\SiteDonViSql\\VB Ky so - 1 chu ky.doc";
+	public String file_word_ky_so_3_chu_ky = "C:\\AttachFiles\\SiteDonViSql\\VB Ky so - File co 3 Chu ky.doc";
+	public String file_word_validate_key = "C:\\AttachFiles\\SiteDonViSql\\VB Ky so - Validate Key.doc";
+	public String file_word_co_comment = "C:\\AttachFiles\\SiteDonViSql\\VB Ky so - File co Comment.docx";
+	public String file_word_co_trackchange = "C:\\AttachFiles\\SiteDonViSql\\VB Ky so - File co Track change.docx";
+	public String nguoi_nhan_vb = "eoff.tkdg.cv2";
+	public String group_nhan_vb = "Cac truong phong";
+	public String van_thu = "Eoff Văn thư";
+
+}

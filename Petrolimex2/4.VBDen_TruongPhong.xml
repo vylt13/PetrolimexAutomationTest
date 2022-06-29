@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ 
+<suite name="04. Thao tác xử lý của Trưởng phòng" verbose="1">
+    <test name="TP Cập nhật Task Thực hiện VB đến">
+        <classes>
+            <class name="testCaseTPXuLyVanBanDen.TC01_Tp_CapNhatTask" />
+        </classes>
+    </test>
+    <test name="TP Kết thúc Task Thực hiện VB đến">
+        <classes>
+            <class name="testCaseTPXuLyVanBanDen.TC02_Tp_KetThucTask" />
+        </classes>
+    </test>
+    <test name="TP Lập Hồ sơ Dự thảo">
+        <classes>
+            <class name="testCaseTPXuLyVanBanDen.TC03_Tp_LapHoSoDuThao" />
+        </classes>
+    </test>
+     <test name="Tp Lập Hồ sơ xử lý">
+        <classes>
+            <class name="testCaseTPXuLyVanBanDen.TC04_Tp_LapHoSoXuLy" />
+        </classes>
+    </test>
+    <test name="Tp Phân công Thực hiện Văn bản">
+        <classes>
+            <class name="testCaseTPXuLyVanBanDen.TC05_Tp_PhanCongVanBan" />
+        </classes>
+    </test>
+    <test name="Tp Hoàn tất VB Phối hợp">
+        <classes>
+            <class name="testCaseTPXuLyVanBanDen.TC06_Tp_ChonLaiNguoiXuLy" />
+        </classes>
+    </test>
+</suite>

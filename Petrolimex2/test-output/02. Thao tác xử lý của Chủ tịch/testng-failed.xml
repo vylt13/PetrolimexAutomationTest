@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [02. Thao tác xử lý của Chủ tịch]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Chủ tịch Phân công thực hiện VB đến(failed)">
+    <classes>
+      <class name="testCaseChuTichXuLyVanBanDen.TC04_ChuTich_PhanCongThucHien">
+        <methods>
+          <include name="ChuTichPhanCongThucHien"/>
+        </methods>
+      </class> <!-- testCaseChuTichXuLyVanBanDen.TC04_ChuTich_PhanCongThucHien -->
+    </classes>
+  </test> <!-- Chủ tịch Phân công thực hiện VB đến(failed) -->
+</suite> <!-- Failed suite [02. Thao tác xử lý của Chủ tịch] -->

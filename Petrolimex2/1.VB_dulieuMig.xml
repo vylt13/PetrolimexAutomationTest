@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ 
+<suite name="01. Form Thao tác của Văn thư" verbose="1">
+    <test name="Văn thư tạo mới, Lưu Văn bản đến (Không có file đính kèm)">
+        <classes>
+            <class name="testCaseVBDenVanThu.TC01_VBDangLuuKhongDinhKem" />
+        </classes>
+    </test>
+    <test name="Văn thư tạo mới, Lưu Văn bản đến (Có file đính kèm)">
+        <classes>
+            <class name="testCaseVBDenVanThu.TC02_VBDangLuuCoDinhKem" />
+        </classes>
+    </test>
+      <test name="Văn bản đến trình lãnh đạo)">
+        <classes>
+            <class name="testCaseVBDenVanThu.TC06_VBDen_ChuyenXuLy"/>
+        </classes>
+    </test>
+    <test name="Văn bản lãnh đạo chuyển xử lý cho lãnh đạo khác">
+        <classes>
+            <class name="testCaseTGDXuLyVanBanDen.TC05_TGD_TrinhLanhDao"/>
+        </classes>
+    </test>
+</suite>

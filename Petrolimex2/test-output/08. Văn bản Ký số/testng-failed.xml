@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [08. Văn bản Ký số]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="11. Ký số - Chuyển xử lý tại Bước Lãnh đạo phòng ban(failed)">
+    <classes>
+      <class name="testCaseVBKySo.TC11_ChuyenXuLyTaiBuocLanhDaoPhongBan">
+        <methods>
+          <include name="ChuyenXuLyTaiBuocLanhDaoPhongBan"/>
+        </methods>
+      </class> <!-- testCaseVBKySo.TC11_ChuyenXuLyTaiBuocLanhDaoPhongBan -->
+    </classes>
+  </test> <!-- 11. Ký số - Chuyển xử lý tại Bước Lãnh đạo phòng ban(failed) -->
+  <test thread-count="5" name="12. Ký số - Chuyển xử lý tại Bước Lãnh đạo BGĐ(failed)">
+    <classes>
+      <class name="testCaseVBKySo.TC12_ChuyenXuLyTaiBuocLanhDaoBGD">
+        <methods>
+          <include name="ChuyenXuLyTaiBuocLanhDaoBGD"/>
+        </methods>
+      </class> <!-- testCaseVBKySo.TC12_ChuyenXuLyTaiBuocLanhDaoBGD -->
+    </classes>
+  </test> <!-- 12. Ký số - Chuyển xử lý tại Bước Lãnh đạo BGĐ(failed) -->
+  <test thread-count="5" name="14. Luồng Ký số Thừa lệnh(failed)">
+    <classes>
+      <class name="testCaseVBKySo.TC14_KyThuaLenh_NguoiSoanKhongCoWorkerName">
+        <methods>
+          <include name="KyThuaLenh_NguoiSoanCoWorkerName"/>
+        </methods>
+      </class> <!-- testCaseVBKySo.TC14_KyThuaLenh_NguoiSoanKhongCoWorkerName -->
+    </classes>
+  </test> <!-- 14. Luồng Ký số Thừa lệnh(failed) -->
+</suite> <!-- Failed suite [08. Văn bản Ký số] -->

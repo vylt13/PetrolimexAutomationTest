@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [06. Văn bản dự thảo]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Luồng phê duyệt VB dự thảo đến Chờ phát hành(failed)">
+    <classes>
+      <class name="testCaseVBDT.TC03_TaoVbDuThaoGuiPheDuyetHoanTatQuyTrinh">
+        <methods>
+          <include name="VBDangLuuKhongDinhKem"/>
+        </methods>
+      </class> <!-- testCaseVBDT.TC03_TaoVbDuThaoGuiPheDuyetHoanTatQuyTrinh -->
+    </classes>
+  </test> <!-- Luồng phê duyệt VB dự thảo đến Chờ phát hành(failed) -->
+  <test thread-count="5" name="Người phê duyệt Chuyển xử lý, Kiểm tra người xử lý thực hiện Action Đồng ý(failed)">
+    <classes>
+      <class name="testCaseVBDT.TC04_NguoiPheDuyetChuyenXuLy">
+        <methods>
+          <include name="VBDangLuuKhongDinhKem"/>
+        </methods>
+      </class> <!-- testCaseVBDT.TC04_NguoiPheDuyetChuyenXuLy -->
+    </classes>
+  </test> <!-- Người phê duyệt Chuyển xử lý, Kiểm tra người xử lý thực hiện Action Đồng ý(failed) -->
+  <test thread-count="5" name="Người phê duyệt Yêu cầu hiệu chỉnh, người soạn thảo gửi lại(failed)">
+    <classes>
+      <class name="testCaseVBDT.TC05_NguoiPheDuyetYeuCauHieuChinh">
+        <methods>
+          <include name="NguoiPheDuyetYeuCauHieuChinh"/>
+        </methods>
+      </class> <!-- testCaseVBDT.TC05_NguoiPheDuyetYeuCauHieuChinh -->
+    </classes>
+  </test> <!-- Người phê duyệt Yêu cầu hiệu chỉnh, người soạn thảo gửi lại(failed) -->
+  <test thread-count="5" name="Người phê duyệt Yêu cầu Bổ sung thông tin, người được yêu cầu Bổ sung thông tin gửi lại(failed)">
+    <classes>
+      <class name="testCaseVBDT.TC06_NguoiPheDuyetYeuCauBoSungThongTin">
+        <methods>
+          <include name="NguoiPheDuyetYeuCauBoSungThongTin"/>
+        </methods>
+      </class> <!-- testCaseVBDT.TC06_NguoiPheDuyetYeuCauBoSungThongTin -->
+    </classes>
+  </test> <!-- Người phê duyệt Yêu cầu Bổ sung thông tin, người được yêu cầu Bổ sung thông tin gửi lại(failed) -->
+  <test thread-count="5" name="Người phê duyệt Chia sẻ VB dự thảo, Kiểm tra quyền View của Người được chia sẻ(failed)">
+    <classes>
+      <class name="testCaseVBDT.TC07_NguoiPheDuyetChiaSe">
+        <methods>
+          <include name="NguoiPheDuyetChiaSe"/>
+        </methods>
+      </class> <!-- testCaseVBDT.TC07_NguoiPheDuyetChiaSe -->
+    </classes>
+  </test> <!-- Người phê duyệt Chia sẻ VB dự thảo, Kiểm tra quyền View của Người được chia sẻ(failed) -->
+</suite> <!-- Failed suite [06. Văn bản dự thảo] -->

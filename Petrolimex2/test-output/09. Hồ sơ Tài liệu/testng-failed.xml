@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [09. Hồ sơ Tài liệu]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="04. Biên bản Thanh toán - Thao tác thêm mới, Sửa, Trình phê duyệt(failed)">
+    <classes>
+      <class name="testCaseHSTL.TC02_TaoBienBanThanhToan">
+        <methods>
+          <include name="TaoBienBanThanhToan"/>
+        </methods>
+      </class> <!-- testCaseHSTL.TC02_TaoBienBanThanhToan -->
+    </classes>
+  </test> <!-- 04. Biên bản Thanh toán - Thao tác thêm mới, Sửa, Trình phê duyệt(failed) -->
+  <test thread-count="5" name="04. Tờ trình - Thao tác thêm mới, Sửa, Trình phê duyệt(failed)">
+    <classes>
+      <class name="testCaseHSTL.TC03_TaoToTrinh">
+        <methods>
+          <include name="TaoToTrinh"/>
+        </methods>
+      </class> <!-- testCaseHSTL.TC03_TaoToTrinh -->
+    </classes>
+  </test> <!-- 04. Tờ trình - Thao tác thêm mới, Sửa, Trình phê duyệt(failed) -->
+  <test thread-count="5" name="07. Báo cáo Nội bộ - Thao tác thêm mới, Sửa, Trình phê duyệt(failed)">
+    <classes>
+      <class name="testCaseHSTL.TC04_BaoCaoNoiBo">
+        <methods>
+          <include name="BaoCaoNoiBo"/>
+        </methods>
+      </class> <!-- testCaseHSTL.TC04_BaoCaoNoiBo -->
+    </classes>
+  </test> <!-- 07. Báo cáo Nội bộ - Thao tác thêm mới, Sửa, Trình phê duyệt(failed) -->
+  <test thread-count="5" name="08. Biên bản Nội bộ - Thao tác thêm mới, Sửa, Trình phê duyệt(failed)">
+    <classes>
+      <class name="testCaseHSTL.TC05_BienBanNoiBo">
+        <methods>
+          <include name="BienBanNoiBo"/>
+        </methods>
+      </class> <!-- testCaseHSTL.TC05_BienBanNoiBo -->
+    </classes>
+  </test> <!-- 08. Biên bản Nội bộ - Thao tác thêm mới, Sửa, Trình phê duyệt(failed) -->
+  <test thread-count="5" name="15. Hồ sơ Tài liệu Loại Ký Mộc - Chuyển xử lý ở bước Trưởng phòng(failed)">
+    <classes>
+      <class name="testCaseHSTL.TC14_HoSoTaiLieuKyMocChuyenXuLyBuocTruongPhong">
+        <methods>
+          <include name="HoSoTaiLieuKyMocChuyenXuLyBuocTruongPhong"/>
+        </methods>
+      </class> <!-- testCaseHSTL.TC14_HoSoTaiLieuKyMocChuyenXuLyBuocTruongPhong -->
+    </classes>
+  </test> <!-- 15. Hồ sơ Tài liệu Loại Ký Mộc - Chuyển xử lý ở bước Trưởng phòng(failed) -->
+  <test thread-count="5" name="16. Hồ sơ Tài liệu Loại Ký Mộc - Chuyển xử lý ở bước TGD(failed)">
+    <classes>
+      <class name="testCaseHSTL.TC15_HoSoTaiLieuKyMocChuyenXuLyBuocTGD">
+        <methods>
+          <include name="HoSoTaiLieuKyMocChuyenXuLyBuocTruongPhong"/>
+        </methods>
+      </class> <!-- testCaseHSTL.TC15_HoSoTaiLieuKyMocChuyenXuLyBuocTGD -->
+    </classes>
+  </test> <!-- 16. Hồ sơ Tài liệu Loại Ký Mộc - Chuyển xử lý ở bước TGD(failed) -->
+  <test thread-count="5" name="16. Hồ sơ Tài liệu Loại Không Ký Mộc - Chuyển xử lý ở bước TGD(failed)">
+    <classes>
+      <class name="testCaseHSTL.TC17_HoSoTaiLieuKhongKyMoc_ChuyenXyLyOBuocTGD">
+        <methods>
+          <include name="HoSoTaiLieuKhongKyMoc_ChuyenXyLyOBuocTGD"/>
+        </methods>
+      </class> <!-- testCaseHSTL.TC17_HoSoTaiLieuKhongKyMoc_ChuyenXyLyOBuocTGD -->
+    </classes>
+  </test> <!-- 16. Hồ sơ Tài liệu Loại Không Ký Mộc - Chuyển xử lý ở bước TGD(failed) -->
+  <test thread-count="5" name="18. Hồ sơ Tài liệu Loại Ký Mộc - Yêu cầu điều chỉnh và Thay đổi người xử lý ở bước phê duyệt cuối(failed)">
+    <classes>
+      <class name="testCaseHSTL.TC19_HoSoTaiLieuKyMoc_YeuCauDieuChinh">
+        <methods>
+          <include name="HoSoTaiLieuKyMoc_KeySTTvaUser"/>
+        </methods>
+      </class> <!-- testCaseHSTL.TC19_HoSoTaiLieuKyMoc_YeuCauDieuChinh -->
+    </classes>
+  </test> <!-- 18. Hồ sơ Tài liệu Loại Ký Mộc - Yêu cầu điều chỉnh và Thay đổi người xử lý ở bước phê duyệt cuối(failed) -->
+</suite> <!-- Failed suite [09. Hồ sơ Tài liệu] -->

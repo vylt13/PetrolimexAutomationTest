@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ 
+<suite name="Kiểm tra page và các WP trên Site" verbose="1">
+    <test name="Văn bản đi">
+        <classes>
+            <class name="checkWebpart.vanBanDi" />
+        </classes>
+    </test>
+    <test name="Văn bản Ban hành">
+        <classes>
+            <class name="checkWebpart.vanBanBanHanh" />
+        </classes>
+    </test>
+    <test name="Văn bản Đến">
+        <classes>
+            <class name="checkWebpart.vanBanDen" />
+        </classes>
+    </test>
+    <test name="Báo cáo In sổ">
+        <classes>
+            <class name="checkWebpart.baoCaoInSo" />
+        </classes>
+    </test>
+    <test name="Cấu hình khác">
+        <classes>
+            <class name="checkWebpart.cauHinhKhac" />
+        </classes>
+    </test>
+</suite>

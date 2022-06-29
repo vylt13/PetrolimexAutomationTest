@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Check WP Văn bản đi]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Check danh sách WP(failed)">
+    <classes>
+      <class name="checkWebpart.vanBanDen">
+        <methods>
+          <include name="VBDi3"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- checkWebpart.vanBanDen -->
+    </classes>
+  </test> <!-- Check danh sách WP(failed) -->
+</suite> <!-- Failed suite [Check WP Văn bản đi] -->

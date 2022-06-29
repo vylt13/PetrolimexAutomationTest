@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ 
+<suite name="07. Văn bản ban hành" verbose="1">
+    <test name="Thao tác thêm mới, Lưu nháp, Kiểm tra thông tin Văn bản sau khi lưu">
+        <classes>
+            <class name="testCaseVBBanHanh.TC01_ThemMoiVaLuu" />
+        </classes>
+    </test> 
+    <test name="Thao tác thêm mới và Phát hành VB, kiểm tra người nhận trong đơn vị và các Đơn vị nhận được VB đến qua mạng">
+        <classes>
+            <class name="testCaseVBBanHanh.TC02_ThemMoiVaPhatHanhVb" />
+        </classes>
+    </test> 
+     <test name="Thao tác Phát hành VB, sau đó Thu hồi ở Tập đoàn và xóa Người nhận. Kiểm tra người nhận trong đơn vị không còn thấy VB, VB ở Tập đoàn bị thu hồi">
+        <classes>
+            <class name="testCaseVBBanHanh.TC03_ThemMoiVaPhatHanh_ThuHoi" />
+        </classes>
+    </test> 
+     <test name="Thao tác Phát hành VB, sửa thông tin VB đã phát hành. Kiểm tra thông tin được cập nhật đúng">
+        <classes>
+            <class name="testCaseVBBanHanh.TC04_SuaThongTinVBDaPhatHanh" />
+        </classes>
+    </test> 
+     <test name="Thao tác Phát hành VB, Lập phiếu giải quyết. Kiểm tra Phòng ban nhận được Văn bản và Hoàn tất">
+        <classes>
+            <class name="testCaseVBBanHanh.TC05_LapPhieuGiaiQuyetVBDaPhatHanh" />
+        </classes>
+    </test> 
+     <test name="Thao tác Phát hành VB từ HSDT đã phê duyệt. Kiểm tra Mapping thông tin giữa 2 bên">
+        <classes>
+            <class name="testCaseVBBanHanh.TC06_PhatHanhTuVBDTDaPheDuyet" />
+        </classes>
+    </test> 
+</suite>

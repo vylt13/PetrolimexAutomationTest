@@ -1,0 +1,69 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ 
+<suite name="08. Văn bản Ký số" verbose="1">
+    <test name="02. File Word - Ký số 1 trang">
+        <classes>
+            <class name="testCaseVBKySo.TC02_FileWord_KySoFile1Trang" />
+        </classes>
+    </test>
+     <test name="07. File Pdf - Ký số 1 file">
+        <classes>
+            <class name="testCaseVBKySo.TC07_FilePdf_KySo1File" />
+        </classes>
+    </test>
+      <test name="08. File Excel - Ký số 1 file">
+        <classes>
+            <class name="testCaseVBKySo.TC08_FileExcel_KySo1File" />
+        </classes>
+    </test>
+       <test name="05. File Word - Ký nháy ở Bước cuối cùng">
+        <classes>
+            <class name="testCaseVBKySo.TC05_FileWord_KyNhayOBuocCuoiCung" />
+        </classes>
+    </test>
+     <test name="06. File Word - Ký kết hợp Key STT và Account">
+        <classes>
+            <class name="testCaseVBKySo.TC06_FileWord_KySoKeySTTvaAccount" />
+        </classes>
+    </test>
+     <test name="10. Ký số có file Lỗi khi Ký nhiều loại file">
+        <classes>
+            <class name="testCaseVBKySo.TC10_KySoLoiNhieuLoaiFile" />
+        </classes>
+    </test>
+      <test name="15. Ký thừa lệnh - Thay đổi tùy chọn Ký thừa lệnh từ Không thành Có trên form Edit">
+        <classes>
+            <class name="testCaseVBKySo.TC15_KyThuaLenh_ThayDoiTuCoThanhKhong" />
+        </classes>
+    </test>
+     <test name="16. Ký thừa lệnh - Thay đổi tùy chọn Ký thừa lệnh từ Có thành Không trên form Edit">
+        <classes>
+            <class name="testCaseVBKySo.TC16_KyThuaLenh_ThayDoiTuKhongThanhCo" />
+        </classes>
+    </test>
+    <test name="17. Luồng Ký số Người soạn thảo có Khai báo WorkerName">
+        <classes>
+            <class name="testCaseVBKySo.TC17_FileWord_NguoiSoanCoWorkerName" />
+        </classes>
+    </test>
+     <test name="18. Luồng Ký số Validate thiếu Key trong file">
+        <classes>
+            <class name="testCaseVBKySo.TC18_FileWord_Validate_Key_KySo" />
+        </classes>
+    </test>
+      <test name="20. Luồng Ký số trường hợp có 2 Step liền kề có Account xử lý giống nhau">
+        <classes>
+            <class name="testCaseVBKySo.TC20_FileWord_KySo2StepGiongNhau" />
+        </classes>
+    </test>
+    <test name="21. Luồng Ký số trường hợp Quy trình có 1 bước xử lý">
+        <classes>
+            <class name="testCaseVBKySo.TC21_KyThuaLenh_NguoiSoanCoWorkerName1Step" />
+        </classes>
+    </test>
+     <test name="22. Luồng Ký số trường hợp Trưởng phòng trình TGD">
+        <classes>
+            <class name="testCaseVBKySo.TC22_LuongKySoTruongPhongTrinhTGD" />
+        </classes>
+    </test>
+   </suite>

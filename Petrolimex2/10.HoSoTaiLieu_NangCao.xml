@@ -1,0 +1,75 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ 
+<suite name="09. Hồ sơ Tài liệu" verbose="1">
+     <test name="03. Hợp đồng - Thao tác thêm mới, Sửa, Trình phê duyệt Hợp đồng có file Lỗi">
+        <classes>
+            <class name="testCaseHSTL.TC01_TaoHopDongCoFileLoi" />
+        </classes>
+    </test>
+    <test name="05. Tờ trình - Thao tác thêm mới, Sửa, Trình phê duyệt trường hợp 02 User phê duyệt 1 bước">
+        <classes>
+            <class name="testCaseHSTL.TC03_TaoToTrinhGui2UserPheDuyet" />
+        </classes>
+    </test>
+     <test name="06. Tờ trình - Thao tác thêm mới, Sửa, Trình phê duyệt Tờ trình có file Lỗi">
+        <classes>
+            <class name="testCaseHSTL.TC03_TaoToTrinhCoFileLoi" />
+        </classes>
+    </test>
+   <test name="10. Hồ sơ Tài liệu Luồng ký số file không insert Key Ngày tháng năm">
+        <classes>
+            <class name="testCaseHSTL.TC07_TaoToTrinh_KhongKey" />
+        </classes>
+    </test>
+     <test name="11. Hồ sơ Tài liệu Loại Ký Mộc - File đặt Key User">
+        <classes>
+            <class name="testCaseHSTL.TC10_HoSoTaiLieuKyMoc_KeyUser" />
+        </classes>
+    </test>
+    <test name="12. Hồ sơ Tài liệu Loại Không Ký Mộc - File đặt Key User">
+        <classes>
+            <class name="testCaseHSTL.TC11_HoSoTaiLieuKhongKyMoc_KeyUser" />
+        </classes>
+    </test>
+    <test name="15. Hồ sơ Tài liệu Loại Không Ký Mộc - Chuyển xử lý ở bước Trưởng phòng">
+        <classes>
+            <class name="testCaseHSTL.TC16_HoSoTaiLieuKhongKyMoc_ChuyenXyLyOBuocTruongPhong" />
+        </classes>
+    </test>
+    
+     <test name="14. Hồ sơ Tài liệu Loại Ký Mộc - File đặt Key Số thứ tự và User">
+        <classes>
+            <class name="testCaseHSTL.TC12_HoSoTaiLieuKyMoc_KeySTTvaUser" />
+        </classes>
+    </test>
+     <test name="14. Hồ sơ Tài liệu Loại Không Ký Mộc - File đặt Key Số thứ tự và User">
+        <classes>
+            <class name="testCaseHSTL.TC13_HoSoTaiLieuKhongKyMoc_KeyUserVaSTT" />
+        </classes>
+    </test>
+    <test name="17. Hồ sơ Tài liệu Loại Không Ký Mộc - Yêu cầu điều chỉnh và Thay đổi người xử lý ở bước phê duyệt cuối">
+        <classes>
+            <class name="testCaseHSTL.TC18_HoSoTaiLieuKhongKyMoc_YeuCauDieuChinh" />
+        </classes>
+    </test>
+    <test name="20. Hồ sơ Tài liệu Loại Ký Mộc - Luồng Ký số Ký nháy">
+        <classes>
+            <class name="testCaseHSTL.TC20_HoSoTaiLieuKyMoc_LuongKyNhay" />
+        </classes>
+    </test>
+     <test name="21. Hồ sơ Tài liệu Loại Không Ký Mộc - Luồng Ký số Ký nháy">
+        <classes>
+            <class name="testCaseHSTL.TC21_HoSoTaiLieuKhongKyMoc_LuongKyNhay" />
+        </classes>
+    </test>
+    <test name="22. Hồ sơ Tài liệu Loại Ký Mộc - 2 Bước phê duyệt liền kề giống nhau">
+        <classes>
+            <class name="testCaseHSTL.TC23_HoSoTaiLieuKyMoc_2BuocPheDuyetGiongNhau" />
+        </classes>
+    </test>
+     <test name="23. Hồ sơ Tài liệu Loại Không Ký Mộc - 2 Bước phê duyệt liền kề giống nhau">
+        <classes>
+            <class name="testCaseHSTL.TC24_HoSoTaiLieuKhongKyMoc_2BuocPheDuyetGiongNhau" />
+        </classes>
+    </test>
+</suite>

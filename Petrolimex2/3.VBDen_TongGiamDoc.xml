@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ 
+<suite name="03. Thao tác xử lý của Tổng giám đốc" verbose="1">
+    <test name="TGĐ Chuyển xử lý VB đến">
+        <classes>
+            <class name="testCaseTGDXuLyVanBanDen.TC01_TGD_ChuyenXyLy" />
+        </classes>
+    </test>
+    <test name="TGĐ Kết thúc VB đến">
+        <classes>
+            <class name="testCaseTGDXuLyVanBanDen.TC02_TGD_KetThucVB" />
+        </classes>
+    </test>
+     <test name="TGĐ Chia sẻ VB đến">
+        <classes>
+            <class name="testCaseTGDXuLyVanBanDen.TC03_TGD_ChiaSeVB" />
+        </classes>
+    </test>
+    <test name="TGĐ Phân công thực hiện VB đến">
+        <classes>
+            <class name="testCaseTGDXuLyVanBanDen.TC04_TGD_PhanCongThucHien" />
+        </classes>
+    </test>
+    <test name="TGĐ Trình Lãnh đạo khác">
+        <classes>
+            <class name="testCaseTGDXuLyVanBanDen.TC05_TGD_TrinhLanhDao" />
+        </classes>
+    </test>
+</suite>

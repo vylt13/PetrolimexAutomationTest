@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [01. Form Thao tác của Văn thư]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Văn thư tạo mới, Lưu Văn bản đến (Không có file đính kèm)(failed)">
+    <classes>
+      <class name="testCaseVBDenVanThu.TC01_VBDangLuuKhongDinhKem">
+        <methods>
+          <include name="VBDangLuuKhongDinhKem"/>
+        </methods>
+      </class> <!-- testCaseVBDenVanThu.TC01_VBDangLuuKhongDinhKem -->
+    </classes>
+  </test> <!-- Văn thư tạo mới, Lưu Văn bản đến (Không có file đính kèm)(failed) -->
+  <test thread-count="5" name="Văn thư tạo mới, Lưu Văn bản đến (Có file đính kèm)(failed)">
+    <classes>
+      <class name="testCaseVBDenVanThu.TC02_VBDangLuuCoDinhKem">
+        <methods>
+          <include name="VBDangLuuCoDinhKem"/>
+        </methods>
+      </class> <!-- testCaseVBDenVanThu.TC02_VBDangLuuCoDinhKem -->
+    </classes>
+  </test> <!-- Văn thư tạo mới, Lưu Văn bản đến (Có file đính kèm)(failed) -->
+  <test thread-count="5" name="Văn bản đến trình lãnh đạo)(failed)">
+    <classes>
+      <class name="testCaseVBDenVanThu.TC06_VBDen_ChuyenXuLy">
+        <methods>
+          <include name="VBDenChuyenXuLy"/>
+        </methods>
+      </class> <!-- testCaseVBDenVanThu.TC06_VBDen_ChuyenXuLy -->
+    </classes>
+  </test> <!-- Văn bản đến trình lãnh đạo)(failed) -->
+  <test thread-count="5" name="Văn bản lãnh đạo chuyển xử lý cho lãnh đạo khác(failed)">
+    <classes>
+      <class name="testCaseTGDXuLyVanBanDen.TC05_TGD_TrinhLanhDao">
+        <methods>
+          <include name="TGDTrinhLanhDao"/>
+        </methods>
+      </class> <!-- testCaseTGDXuLyVanBanDen.TC05_TGD_TrinhLanhDao -->
+    </classes>
+  </test> <!-- Văn bản lãnh đạo chuyển xử lý cho lãnh đạo khác(failed) -->
+</suite> <!-- Failed suite [01. Form Thao tác của Văn thư] -->

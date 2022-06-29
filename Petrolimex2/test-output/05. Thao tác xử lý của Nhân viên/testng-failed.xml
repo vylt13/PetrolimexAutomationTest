@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [05. Thao tác xử lý của Nhân viên]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="NV Hoàn tất Task Xử lý VB đến(failed)">
+    <classes>
+      <class name="testCaseNVXuLyVanBanDen.TC02_NV_NVHoanTatTask">
+        <methods>
+          <include name="NVHoanTatTask"/>
+        </methods>
+      </class> <!-- testCaseNVXuLyVanBanDen.TC02_NV_NVHoanTatTask -->
+    </classes>
+  </test> <!-- NV Hoàn tất Task Xử lý VB đến(failed) -->
+  <test thread-count="5" name="NV Lập Hồ sơ Dự thảo(failed)">
+    <classes>
+      <class name="testCaseNVXuLyVanBanDen.TC03_NV_NVLapHoSoDuThao">
+        <methods>
+          <include name="NVLapHoSoDuThao"/>
+        </methods>
+      </class> <!-- testCaseNVXuLyVanBanDen.TC03_NV_NVLapHoSoDuThao -->
+    </classes>
+  </test> <!-- NV Lập Hồ sơ Dự thảo(failed) -->
+  <test thread-count="5" name="NV Lập Hồ sơ Xử lý(failed)">
+    <classes>
+      <class name="testCaseNVXuLyVanBanDen.TC04_NV_NVLapHoSoXuLy">
+        <methods>
+          <include name="NVLapHoSoXuLy"/>
+        </methods>
+      </class> <!-- testCaseNVXuLyVanBanDen.TC04_NV_NVLapHoSoXuLy -->
+    </classes>
+  </test> <!-- NV Lập Hồ sơ Xử lý(failed) -->
+</suite> <!-- Failed suite [05. Thao tác xử lý của Nhân viên] -->

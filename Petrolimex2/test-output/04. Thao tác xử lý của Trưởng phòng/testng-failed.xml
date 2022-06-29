@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [04. Thao tác xử lý của Trưởng phòng]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Tp Lập Hồ sơ xử lý(failed)">
+    <classes>
+      <class name="testCaseTPXuLyVanBanDen.TC04_Tp_LapHoSoXuLy">
+        <methods>
+          <include name="LapHoSoXuLy"/>
+        </methods>
+      </class> <!-- testCaseTPXuLyVanBanDen.TC04_Tp_LapHoSoXuLy -->
+    </classes>
+  </test> <!-- Tp Lập Hồ sơ xử lý(failed) -->
+</suite> <!-- Failed suite [04. Thao tác xử lý của Trưởng phòng] -->

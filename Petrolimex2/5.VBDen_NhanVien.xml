@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+ 
+<suite name="05. Thao tác xử lý của Nhân viên" verbose="1">
+    <test name="NV Cập nhật Task Xử lý VB đến">
+        <classes>
+            <class name="testCaseNVXuLyVanBanDen.TC01_NV_NVCapNhatTask" />
+        </classes>
+    </test>
+     <test name="NV Hoàn tất Task Xử lý VB đến">
+        <classes>
+            <class name="testCaseNVXuLyVanBanDen.TC02_NV_NVHoanTatTask" />
+        </classes>
+    </test>
+    <test name="NV Lập Hồ sơ Dự thảo">
+        <classes>
+            <class name="testCaseNVXuLyVanBanDen.TC03_NV_NVLapHoSoDuThao" />
+        </classes>
+    </test>
+     <test name="NV Lập Hồ sơ Xử lý">
+        <classes>
+            <class name="testCaseNVXuLyVanBanDen.TC04_NV_NVLapHoSoXuLy" />
+        </classes>
+    </test>    
+</suite>

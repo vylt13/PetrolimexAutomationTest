@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [07. Văn bản Ký số]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="14. Ký thừa lệnh - Người soạn thảo Không được Khai báo WorkerName(failed)(failed)">
+    <classes>
+      <class name="testCaseVBKySo.TC14_KyThuaLenh_NguoiSoanKhongCoWorkerName">
+        <methods>
+          <include name="KyThuaLenh_NguoiSoanCoWorkerName"/>
+        </methods>
+      </class> <!-- testCaseVBKySo.TC14_KyThuaLenh_NguoiSoanKhongCoWorkerName -->
+    </classes>
+  </test> <!-- 14. Ký thừa lệnh - Người soạn thảo Không được Khai báo WorkerName(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [07. Văn bản Ký số]] -->
